@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/movimientos")
-@CrossOrigin( origins = "http://localhost:5173")
+@CrossOrigin( origins = "https://inventario-7yzy.onrender.com")
 public class MovimientoController {
 
     @Autowired

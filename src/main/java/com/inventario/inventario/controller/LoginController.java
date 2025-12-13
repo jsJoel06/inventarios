@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/login")
-@CrossOrigin( origins = "http://localhost:5173")
+@CrossOrigin( origins = "https://inventario-7yzy.onrender.com")
 public class LoginController {
 
     @Autowired
