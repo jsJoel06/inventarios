@@ -21,6 +21,9 @@ public class Producto {
     private String descripcion;
 
     @Column(nullable = false)
+    private BigDecimal precioCosto;
+
+    @Column(nullable = false)
     private BigDecimal precio;
 
     @Column(nullable = false)

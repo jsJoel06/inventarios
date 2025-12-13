@@ -31,7 +31,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/facturas")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "https://inventario-7yzy.onrender.com")
+@CrossOrigin(origins = "http://localhost:5173")
 public class FacturaController {
 
     private final FacturaRepository facturaRepository;

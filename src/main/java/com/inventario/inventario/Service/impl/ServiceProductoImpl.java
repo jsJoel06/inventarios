@@ -35,6 +35,7 @@ public class ServiceProductoImpl implements ServiceProduct {
         if(productoUpdate != null){
             productoUpdate.setNombre(producto.getNombre());
             productoUpdate.setDescripcion(producto.getDescripcion());
+            productoUpdate.setPrecioCosto(producto.getPrecioCosto());
             productoUpdate.setPrecio(producto.getPrecio());
             productoUpdate.setCantidad(producto.getCantidad());
             return repository.save(productoUpdate);

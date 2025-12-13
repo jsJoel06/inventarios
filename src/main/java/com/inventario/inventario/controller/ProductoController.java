@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/productos")
-@CrossOrigin( origins = "https://inventario-7yzy.onrender.com")
+@CrossOrigin( origins = "http://localhost:5173")
 public class ProductoController {
 
     @Autowired
